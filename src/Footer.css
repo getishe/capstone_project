@@ -1,0 +1,20 @@
+/* .d__flex {
+                             
+    
+    display: flex;
+} *//* make a center navbar */
+.footer{
+background-color:bisque;    
+align-items: center;
+display: flex;
+justify-content: space-between;
+padding: 10px 20px;
+z-index: 100;
+}
+span.copyright{
+    color: #000;;
+    font-size: 14px;
+    opacity: 0.75;
+
+}
+
