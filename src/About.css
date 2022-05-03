@@ -1,5 +1,10 @@
+.container{
+    padding-top: 60px;
+   
+}
 .about{
     background: #e2baba;
+    /* margin-bottom: 433px; */
 }
 img.about__img{
 border-radius: 10px;
@@ -7,10 +12,10 @@ width: 100%;
 
 }
 h1.about_heading{
-margin-bottom: 10px;
+/* margin-top: 14px; */
 text-align: start;
 font-family: Monsterrat,sans-serif;
-font-size: 60px;
+font-size: 45px;
 color: black;
 }
 button.about.btn.pointer{
@@ -47,6 +52,6 @@ a.bottom__to__top.active {
         font-size: 20px;
     }
      .p__color {
-        font-size: 14px!important;
+        font-size: 15px!important;
     }
 }

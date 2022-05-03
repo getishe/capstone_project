@@ -13,13 +13,13 @@ li.nav__items{
 }
 .home__content{
   padding: 125px 0px;
-  margin-bottom: 3rem;
+  margin-bottom: 8rem;
 }
-.navigation{
+  .navigation {
   display: grid;
   justify-content: center;
   align-content: center;
-  padding-left: 43rem;
+  padding-left: 36rem;
 }
 h1.home__text{
   font-size: 18px;
@@ -72,20 +72,64 @@ h4.home__text{
    z-index: 1000;
    width: 100%;
    padding: 0px 30px;
-   background-color: #191919;
+   background-color:transparent;
+}
+.toggle__menu{
+display: flex;
+justify-content: flex-end;
+float: right;
+z-index: 1000;
+width: 100%;
+}
+ul.sidebar.d__flex{
+  flex-wrap: wrap;
+  height: 100%;
+  position: fixed;
+  right: 0%;
+  background: #010101;
+  justify-content: center;
+  width: 300px;
+  top: 0%;
+  flex-direction: column;
+}
+li.sideNavbar{
+  padding: 25px 30px;
 }
 @media screen and (max-width: 1024px){
+  
   .navigation{
-    padding: 3px !important;
-    display: none;
+    padding: 18px;
+    padding-left: 21rem;
+     display: none;      
   }
-}
+  /* .navigation.pxy__30{ */
+    /* display: none; */
+  
+  }
 @media only  screen and (max-width: 768px){
   .header{
     justify-content: space-between;
   }
-  .navigation.pxy__30 {
+  .navigation {
     display: none;
+   
 }
-  
+svg.bi.bi-justify.white.pointer{
+width: 30px;
+height: 30px;
+}  
+}
+/* @media only screen and (max-width: 768px){
+  .col__2{
+    max-width: 100%;
+  }
+} */
+@media only screen and (min-width: 1280px){
+
+  svg.bi.bi-justify.white.pointer {
+    display: none !important;
+  }
+  .sidebarNavbar{
+    display: none !important;
+  }
 }
